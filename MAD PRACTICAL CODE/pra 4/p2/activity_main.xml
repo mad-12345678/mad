@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="h p://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:orientation="vertical" 
+    android:padding="16dp"> 
+ <EditText 
+        android:id="@+id/etN" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:hint="Enter Name" /> 
+ 
+    <EditText 
+        android:id="@+id/etA" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:hint="Enter Age" 
+        android:inputType="number" /> 
+ 
+    <EditText 
+        android:id="@+id/etE" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:hint="Enter Email" 
+        android:inputType="textEmailAddress" /> 
+ 
+    <Button 
+        android:id="@+id/bnN" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Send Data" /> 
+ 
+    <Button 
+        android:id="@+id/bnS" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Send SMS" /> 
+</LinearLayout> 

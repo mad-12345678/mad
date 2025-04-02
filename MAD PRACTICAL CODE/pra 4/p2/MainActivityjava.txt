@@ -1,0 +1,39 @@
+package com.example.a4_1; 
+ 
+import android.content.Intent; 
+import android.os.Bundle; 
+import android.view.View; 
+import android.widget.*; 
+ 
+import androidx.appcompat.app.AppCompatActivity; 
+ 
+public class MainActivity extends AppCompatActivity { 
+ 
+    EditText etN, etA, etE; 
+    Bu on bnN, bnS; 
+ 
+    @Override 
+    protected void onCreate(Bundle savedInstanceState) { 
+        super.onCreate(savedInstanceState); 
+        setContentView(R.layout.acivity_main); 
+ 
+        etN = findViewById(R.id.etN); 
+        etA = findViewById(R.id.etA); 
+        etE = findViewById(R.id.etE); 
+        bnN = findViewById(R.id.bnN); 
+        bnS = findViewById(R.id.bnS); 
+ 
+        bnN.setOnClickListener(v -> { 
+            Intent i = new Intent(MainActivity.this, S2.class); 
+            i.putExtra("name", etN.getText().toString()); 
+            i.putExtra("age", etA.getText().toString()); 
+            i.putExtra("email", etE.getText().toString()); 
+            startActivity(i); 
+        }); 
+ 
+        bnS.setOnClickListener(v -> { 
+            Intent i = new Intent(MainActivity.this, SmsOut.class); 
+            startActivity(i); 
+        }); 
+    } 
+} 

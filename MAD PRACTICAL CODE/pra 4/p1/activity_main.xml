@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/etN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:id="@+id/etA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Age"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <EditText
+        android:id="@+id/etE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <Button
+        android:id="@+id/bnN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Data"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Button
+        android:id="@+id/bnS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send SMS"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="275dp" />
+</LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout

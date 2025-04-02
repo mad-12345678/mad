@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+xmlns:app="http://schemas.android.com/apk/res-auto" 
+xmlns:tools="http://schemas.android.com/tools" 
+android:id="@+id/main" 
+android:layout_width="match_parent" 
+android:layout_height="match_parent" 
+tools:context=".MainActivity"> 
+<RelativeLayout 
+android:layout_width="match_parent" 
+android:layout_height="match_parent"> 
+<TextView 
+android:id="@+id/textView" 
+android:layout_width="match_parent" 
+android:layout_height="wrap_content" 
+android:text="LOGIN" 
+android:textSize="40sp" 
+android:layout_marginTop="150dp" 
+android:textAlignment="center"/> 
+<LinearLayout 
+android:layout_width="match_parent" 
+android:layout_height="match_parent" 
+android:orientation="vertical"> 
+<EditText 
+android:id="@+id/editTextTextEmailAddress" 
+android:layout_width="300dp" 
+android:layout_height="50dp" 
+android:layout_marginLeft="50dp" 
+android:layout_marginTop="250dp" 
+android:ems="10" 
+android:inputType="textEmailAddress" 
+android:text="Email address" 
+android:textSize="18sp" /> 
+<EditText 
+android:id="@+id/editTextNumberPassword2" 
+android:layout_width="300dp" 
+android:layout_height="50dp" 
+android:layout_marginLeft="50dp" 
+android:ems="10" 
+android:inputType="numberPassword" 
+android:text="Password@123" 
+android:textSize="18sp" /> 
+<TextView 
+android:id="@+id/textView2" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_marginLeft="200dp" 
+android:text="Forgot Password?" 
+android:textColor="@color/Purple" 
+android:textSize="18sp" /> 
+<Button 
+android:id="@+id/button2" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_marginLeft="150dp" 
+android:layout_marginTop="60dp" 
+android:text="Submit" 
+android:textSize="18sp" /> 
+<TextView 
+android:id="@+id/textView3" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_marginLeft="100dp" 
+android:layout_marginTop="30dp" 
+android:text="Don't have an account yet?" 
+android:textSize="18sp" /> 
+<TextView 
+android:id="@+id/textView5" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_marginLeft="155dp" 
+android:layout_marginTop="10dp" 
+android:text="Register Now" 
+android:textColor="@color/Purple" 
+android:textSize="18sp" /> 
+</LinearLayout> 
+</RelativeLayout> 
+</RelativeLayout>
