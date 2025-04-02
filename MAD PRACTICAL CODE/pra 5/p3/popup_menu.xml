@@ -1,3 +1,7 @@
+Steps:-
+res-> right click new-> android resource directory-> name of directory(menu) and value(menu)-> ok
+menu under layout folder:- right click new menu resource file(popup_menu)-> ok
+
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
